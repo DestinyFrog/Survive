@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <main>
+
+    <ul class="nav" id="brother">
+        <form action="/data/clear" method="get">
+            <button class="btn-clear">
+                <h4>Clear</h4>
+            </button>
+        </form>
+    </ul>
+
+    <form class="formular" action="/data/add" method="get" >
+        <div class="formular-name">
+            <h3>Nome:</h3>
+            <input class="input-name" name="name" type="text" placeholder="new brother/sister">
+        </div>
+
+        <div class="profile">
+            <div class="input-profile">
+                <h3>📸 Fotinha:</h3>
+                <textarea name="profile" class="profile-link"
+                placeholder="Cole o link aqui ou Arraste a imagem"
+                oninput="changeProfile( this )" rows="9" cols="30"></textarea>
+            </div>
+
+            <img class="img_profile" id="prof" src="./img/noprofile.jpg" alt="./img/noprofile.jpg">
+        </div>
+
+        <div class="parameters" id="parameters-persona" name="persona[]"></div>
+        <div class="parameters" id="parameters-fisica"  name="fisica[]"></div>
+
+        <button class="btn-send" type="submit">
+            <h3>Enviar</h3>
+        </button>
+    </form>
+
+    <script src="./script.js"></script>
+
+    </main>
+</body>
+
+</html>

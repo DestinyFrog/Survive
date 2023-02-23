@@ -1,0 +1,28 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    overflow-y: hidden;
+
+    background-color: crimson;
+}
+
+.button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+
+    font-size: 25px;
+
+    background-color: white;
+}

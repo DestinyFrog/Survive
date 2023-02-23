@@ -1,0 +1,80 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: crimson;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: min-content;
+    min-width: 320px;
+
+    padding: 10px;
+
+    border-style: dashed;
+    border-width: 2px;
+    border-color: azure;
+    border-radius: 6px;
+
+    background-color: darksalmon;
+}
+
+#message {
+    width: auto;
+
+    line-break: break-all;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width:  260px;
+    aspect-ratio: 1 / 1;
+    
+    object-fit: cover;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 16px;
+
+    margin: 6px;
+}
+
+.button-next {
+    margin-top: 10px;
+
+    padding: 6px;
+
+    border-radius: 18px;
+    border-width: 2px;
+    
+    font-weight: bold;
+    font-size: 18px;
+    background-color: cornflowerblue;
+    color: white;
+}

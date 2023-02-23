@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Agostinho Carreira",
+        "profile": "http://localhost:3000/img/agostinho.jpg",
+        "persona": {
+            "int": "-3",
+            "car": "5",
+            "ini": "3",
+            "san": "-4",
+            "von": "-2",
+            "for": "-1",
+            "agi": "1",
+            "res": "2",
+            "foc": "-3",
+            "sor": "-5"
+        },
+        "id": "Agostinho",
+        "alive": true
+    },
+    {
+        "name": "ycro",
+        "profile": "https://pbs.twimg.com/media/E0EsDemXEAgCMV7.jpg",
+        "persona": {
+            "int": "-3",
+            "car": "2",
+            "ini": "0",
+            "san": "-3",
+            "von": "3",
+            "for": "-2",
+            "agi": "2",
+            "res": "2",
+            "foc": "-5",
+            "sor": "-3"
+        },
+        "id": "ycro",
+        "alive": true
+    },
+    {
+        "name": "Saiko Mene",
+        "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5pJqHb7UkwxkvklOzXf83R2I9GNNAHODLHg&usqp=CAU",
+        "persona": {
+            "int": "-4",
+            "car": "2",
+            "ini": "-3",
+            "san": "-5",
+            "von": "-1",
+            "for": "-2",
+            "agi": "0",
+            "res": "-4",
+            "foc": "0",
+            "sor": "-2"
+        },
+        "id": "Saiko",
+        "alive": true
+    },
+    {
+        "name": "The¨Rock",
+        "profile": "http://localhost:3000/img/laroca.jpg",
+        "persona": {
+            "int": "5",
+            "car": "5",
+            "ini": "5",
+            "san": "5",
+            "von": "5",
+            "for": "5",
+            "agi": "5",
+            "res": "5",
+            "foc": "5",
+            "sor": "5"
+        },
+        "id": "The¨Rock",
+        "alive": true
+    },
+    {
+        "name": "Maskara",
+        "profile": "http://localhost:3000/img/maskara.jpg",
+        "persona": {
+            "int": "4",
+            "car": "5",
+            "ini": "4",
+            "san": "-5",
+            "von": "3",
+            "for": "4",
+            "agi": "4",
+            "res": "5",
+            "foc": "-3",
+            "sor": "2"
+        },
+        "id": "Maskara",
+        "alive": true
+    },
+    {
+        "name": "chavo",
+        "profile": "http://localhost:3000/img/chavo.jpg",
+        "persona": {
+            "int": "-3",
+            "car": "2",
+            "ini": "2",
+            "san": "-4",
+            "von": "3",
+            "for": "-2",
+            "agi": "2",
+            "res": "2",
+            "foc": "1",
+            "sor": "-5"
+        },
+        "id": "chavo",
+        "alive": true
+    }
+]

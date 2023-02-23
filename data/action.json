@@ -1,0 +1,38 @@
+[
+    {
+        "members": ["k.car>0","k.car>0"],
+        "message": "_0 e _1 dialogaram"
+    },
+    {
+        "members": ["k.for>0","true","k.int<0"],
+        "message": "_0 e _1 estavam caçando aves no meio da floresta\nacertaram _2 supostamente 'sem querer'"
+    },
+    {
+        "members": ["k.ini>0","true"],
+        "message": "_0 assoviou 'Welcome to the Jungle' para _1."
+    },
+    {
+        "members": ["k.sor<0&&k.res<0"],
+        "message": "_0 foi de ralo"
+    },
+    {
+        "members": ["k.ini>0||k.san<0","true"],
+        "message": "_0 deu um tapa na careca de _1"
+    },
+    {
+        "members": ["k.san<0","true"],
+        "message": "_0 Pegou um pedaço de pau, e jogou no _1"
+    },
+    {
+        "members": ["k.ini<0","true"],
+        "message": "_0 da um tapa na bunda de _1 e sai correndo, mas depois bate a cabeça na quina da parede"
+    },
+    {
+        "members": ["k.car>0"],
+        "message": "_0 começa a cantar 'That's Life'"
+    },
+    {
+        "members": ["k.int > 3","true"],
+        "message": "_0 fala para _1 que 'Para evitar críticas, não diga nada, não faça nada, não seja nada'"
+    }
+]
